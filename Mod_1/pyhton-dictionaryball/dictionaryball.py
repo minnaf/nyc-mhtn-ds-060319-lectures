@@ -129,11 +129,11 @@ def team_colors(team_name):
         for stats, data in team_stats.items(): 
             #print(data)
             if data == team_name:
-                print(game_dict()[location]['colors'])
+                return (game_dict()[location]['colors'])
         
 def team_names():
     for location, team_stats in game_dict().items():
-         print(game_dict()[location]['team_name'])
+         return (game_dict()[location]['team_name'])
 
 def player_numbers(team_name):
     jersey_numbers = []

@@ -1,6 +1,0 @@
-#Ignore Mac DS_Sore Files
-.DS_Store
-.ipynb_checkpoints/
-
-.api_key.py 
-
